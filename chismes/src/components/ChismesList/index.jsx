@@ -23,6 +23,6 @@ export default connect(
     posts: selectors.getPosts(state),
   }),
   undefined
-)(Chisme);
+)(List);
 
 //

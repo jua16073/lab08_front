@@ -1,10 +1,10 @@
 import React, {Fragment} from 'react';
-import {connect} from 'react-redux';
-
 import ChismeForm from '../ChismeForm';
+import ChismeList from '../ChismesList';
 
 const ChismeApp = () => (
   <Fragment>
+    <ChismeList/>
     <ChismeForm/>
   </Fragment>
 );
