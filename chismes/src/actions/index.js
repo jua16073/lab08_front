@@ -1,7 +1,6 @@
 import * as types from '../types';
 
 export const addPost = (
-id,
 title, 
 body,
 ) => ({
